@@ -1,0 +1,76 @@
+@font-face {
+    font-family: flame regular;
+    src: url(./../assets/fonts/FlameRegular.otf);
+    font-family: flamebold;
+    src: url(./../assets/fonts/FlameBold.otf);
+}
+* {
+    box-sizing: border-box;
+}
+.bk-container__main__veg{
+    max-width: 1200px;
+}
+/* first section */
+.bk-container__main__veg_1{
+    width: 100%;
+}
+/* second section */
+.bk-video__box{
+    padding: 200px 0px;
+    text-align: center;
+    background-color: #178742;
+}
+/* title vegetarian */
+.bk-container__main_veg_title{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 4rem;
+    color: #178742;
+    font-family: flamebold;
+}
+.bk-container__main_veg_text{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 1rem;
+    color: #178742;
+    font-family: flame regular;
+}
+/* beginning section two */
+.bk-container__main_veg_2{
+    margin-top: 100px;
+    width: 100%;
+}
+.bk-container__main_veg_box1{
+    display: flex;
+}
+.bk-container__main_veg_box_img3{
+    width: 850px;
+}
+.bk-container__main_veg_box1__item{
+    padding: 200px 150px 0px 150px;
+}
+h5{
+    font-size: 3rem;
+    color: #178742;
+    font-family: flame regular;
+}
+.bk-container__main_veg_box1__item__text{
+    font-size: 1.1rem;
+    font-family: 'Arial Narrow';
+    color:rgb(57, 56, 56);
+}
+/* beginning section three */
+.bk-container__main_veg_3{
+    text-align: center;
+}
+.bk-container__main_veg_box_img4{
+    width: 280px;
+    padding-top: 50px;
+
+}
+.bk-container__main_veg_box1__item__text_2{
+    padding-top: 50px;
+    font-size: 1rem;
+    font-family: 'Arial Narrow';
+    color: #178742;
+}

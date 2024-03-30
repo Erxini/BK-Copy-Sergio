@@ -1,0 +1,94 @@
+@font-face {
+    font-family: flame regular;
+    src: url(./../assets/fonts/FlameRegular.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --hibiscus-700: #df2b28;
+    --hibiscus-800: #f5d939;
+    --hibiscus-900: #502314;
+    --hibiscus-950: #F5EBDC;
+    
+}
+
+body {
+    background-color: var(--hibiscus-950);
+}
+/* beginning of header */
+.bk__header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--hibiscus-950); 
+    z-index: 1000;
+}
+.bk-header__logo {
+    padding-left: 40px;
+    margin-top: 20px;
+    width: 110px;
+    background-color: none;
+}
+
+.bk-header__nav {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    padding-left: 40px;
+}
+
+.bk-header__container {
+    width: 100%;
+    font-family: flame regular;
+    font-size: 3rem;
+    justify-content: space-between;
+}
+
+.bk-header__box {
+    display: flex;
+    list-style-type: none;
+}
+
+.bk-header__link {
+    font-family: flame regular;
+    font-size: 0.4em;
+    color: var(--hibiscus-900);
+    list-style-type: none;
+    padding: 0px 10px;
+}
+
+.bk-header__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bk-header__inicio {
+    background-color: var(--hibiscus-700);
+    width: 170px;
+    height: 45px;
+    margin-left: 700px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Arial Narrow';
+    font-size: 0.45em;
+    border-radius: 5px;
+}  
+.bk-header__inicio:hover{
+    cursor: pointer;
+}
+
+.bk-header__text {
+    text-decoration: none;
+    color: var(--hibiscus-950);
+
+}
+.link__html{
+    color: var(--hibiscus-900);
+    text-decoration: none;
+}

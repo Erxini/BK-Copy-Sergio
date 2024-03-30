@@ -1,0 +1,236 @@
+@font-face {
+    font-family: flame regular;
+    src: url(./../assets/fonts/FlameRegular.otf);
+    font-family: flamebold;
+    src: url(./../assets/fonts/FlameBold.otf);
+}
+* {
+    box-sizing: border-box;
+}
+.bk-container_main{
+    max-width: 1200px;
+}
+/* beginning part one */
+.bk-container__main__1{
+    width: 100%;
+    flex: 1 1 400px;
+}
+.bk-container__main__img1{
+    width: 100%;
+}
+h1{ 
+    font-size: 8rem;
+    color: #502314;
+    font-family: flamebold;
+    position: relative;
+    left: 100px;
+    top: 600px;
+}
+.bk-container__main__1pide{
+    display:flex;
+    position: relative;
+    left: 100px;
+    top: 550px;
+    background-color: #d62300;
+    width: 350px;
+    height: 70px;
+    border-radius: 8px;
+    font-size: 2.2rem;
+    color: #f3f2f2;
+    font-family: 'Arial Narrow';
+    padding: 15px 40px;
+    margin-right: 10px;
+}
+.bk-container__main__1pidemoto{
+    width: 80px;
+}
+/* beginning part two */
+.bk-container__main__2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bk-container__main__2_box_1{
+    text-align: center;
+    padding-top: 75px;
+    width: 33.3%;
+    height: 800px;
+    background-color: #502314;
+    font-family: flame regular;
+    color:rgb(243, 242, 242);
+    font-size: 2.3rem;
+    flex: 1 1 320px;
+
+}
+.bk-container__main__2_box_2{
+    text-align: center;
+    padding-top: 75px;
+    width: 33.3%;
+    height: 800px;
+    background-color: #df2b28;
+    font-family: flame regular;
+    color:rgb(243, 242, 242);
+    font-size: 2.3rem;
+    flex: 1 1 320px;
+
+}
+.bk-container__main__2_box_3{
+    text-align: center;
+    padding-top: 75px;
+    width: 33.3%;
+    height: 800px;
+    background-color: #f5d939;
+    font-family: flame regular;
+    color: #502314;
+    font-size: 2.3rem;
+    flex: 1 1 320px;
+
+}
+.bk-container__main__img2{
+    width: 300px;
+}
+/* first box of part two */
+.bk-container__inicio_1 {
+    background-color: #f3f2f2;
+    width: 230px;
+    height: 60px;
+    margin-left: 190px;
+    margin-top: 210px;
+    text-align: center;
+    padding-top: 17px;
+    font-family: 'Arial Narrow';
+    font-size: 0.7em;
+    border-radius: 6px;
+}   
+.bk-container__text_1{
+    text-decoration: none;
+    color: #502314;
+}
+/* second box of part two*/
+.bk-container__inicio_2{
+    background-color: #f3f2f2;
+    width: 230px;
+    height: 60px;
+    margin-left: 190px;
+    margin-top: 210px;
+    text-align: center;
+    padding-top: 17px;
+    font-family: 'Arial Narrow';
+    font-size: 0.7em;
+    border-radius: 6px;
+}   
+.bk-container__text_2{
+    text-decoration: none;
+    color: #df2b28;
+}
+/* thirst box of part three*/
+.bk-container__inicio_3{
+    background-color: #502314;
+    width: 230px;
+    height: 60px;
+    margin-left: 190px;
+    margin-top: 210px;
+    text-align: center;
+    padding-top: 17px;
+    font-family: 'Arial Narrow';
+    font-size: 0.7em;
+    border-radius: 6px;
+}   
+.bk-container__text_3{
+    text-decoration: none;
+    color: #f5d939;
+}
+/* beggining part three */
+.bk-container__main_3{
+    width: 100%;
+}
+.bk-container__main_img3{
+    width: 100%;
+    height: auto;
+}
+.bk-container__main__title3{
+    width: 100%;
+    background-color: #502314;
+    text-align: center;
+}
+h3{
+    margin: 0;
+    padding: 40px 0px;
+    padding-left: 130px;
+    font-size: 4rem;
+    color: #f3f2f2;
+    font-family: flamebold;
+    
+}
+.bk-container__main_text3{
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 60px;
+    width: 850px;
+    font-size: 1.5rem;
+    color: #f3f2f2;
+    font-family: flame regular;    
+}
+/* beggining part four */
+.bk-container__main_4{
+    background-image: url(./../assets/images/inicio/BG_Burguer_web_cocina.jpeg);
+    width: 100%;
+    height: 700px;
+}
+.bk-container__main_4_box_int{
+    position: relative;
+    left: 1250px;
+    top: 90px;
+    background-color: #d62300;
+    width: 500px;
+    height: 550px;
+    border-radius: 8px;
+    font-size: 2rem;
+    color: #f3f2f2;
+    font-family: flamebold;
+    padding: 10px 50px;
+}
+.bk-container__main_4_box_search{
+    width: 200px;
+    
+}
+input{
+    width: 380px;
+    height: 30px;
+    border: 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #f3f2f2;
+    background-color: #d62300;
+    color: #f3f2f2;
+
+}
+.bk-container__main_4_box_buscar{
+    background-color: #502314;
+    color:#f3f2f2;
+    width: 320px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-family:'Arial Narrow';
+    font-size: 1.2em;
+    border-radius: 8px;
+}
+/* beggining part five */
+.bk-container__main_5 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bk-container__main_5_box {
+    width: auto;
+    height: auto;
+    flex: 1 1 320px;
+}
+.bk-container__main_img5{
+    width: 469px;
+    height: 560px;
+
+}

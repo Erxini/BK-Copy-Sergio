@@ -1,0 +1,90 @@
+@font-face {
+    font-family: flame regular;
+    src: url(./../assets/fonts/FlameRegular.otf);
+}
+.bk-container__main__log {
+    font-family: flame regular;
+    background-color: #F5EBDC; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    margin: 0;
+  }
+  
+  .login-container {
+    background-color: #ed1212; 
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    font-size: 1.5rem;
+    flex: 1 1 320px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #edfb28;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #502314;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #502314;
+  }
+  /*beginning table*/
+.bk-container__main__table{
+    font-size: 1.2rem;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 50px 50px 50px 150px;
+    width: 495px;
+    background-color: transparent;
+    
+}
+.tabla1 {
+    height: 35px;
+    color: #502314;
+    font-family: flame regular;
+}
+
+.tabla1 td {
+    text-align: center;
+    height: 0;
+    border: 1px solid black;
+}
+.tabla1 td:nth-child(3){
+    text-align: center;
+}
+.tabla1 td:nth-child(2){
+    text-align: center;
+}
+.tabla1 tr:nth-child(2n+1) { 
+    background-color: rgb(253, 204, 212);
+}
+

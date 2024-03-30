@@ -1,0 +1,56 @@
+@font-face {
+    font-family: flame regular;
+    src: url(./../assets/fonts/FlameRegular.otf);
+    font-family: flamebold;
+    src: url(./../assets/fonts/FlameBold.otf);
+}
+* {
+    box-sizing: border-box;
+}
+.bk-container__main__nov{
+    max-width: 1200px;
+}
+/* first section */
+.bk-container__main__nov_1{
+    margin-bottom: 0;
+    width: 100%;
+}
+.bk-container__main__1pide{
+    display:flex;
+    position: relative;
+    left: 790px;
+    bottom: 150px;
+    background-color: #502314;
+    width: 350px;
+    height: 70px;
+    border-radius: 8px;
+    font-size: 2.2rem;
+    color: #f5d939;
+    font-family: 'Arial Narrow';
+    padding: 15px 40px;
+    margin-right: 10px;
+}
+.bk-container__main__2pidemoto{
+    width: 80px;
+    color: #f5d939;
+}
+/* second section */
+.bk-container__main__nov_2{
+    margin: 0;
+    width: 100%;
+}
+/* section three */
+.bk-container__main__nov_3{
+    margin: 0;
+    width: 1200px;
+}.bk-container__main__nov_3_img2{
+    width: 1890px;
+}
+/* section four */
+.bk-container__main__nov_3{
+    margin: 0;
+    width: 100%;
+}
+.bk-container__main__nov_3_img3{
+    width: 1890px;
+}

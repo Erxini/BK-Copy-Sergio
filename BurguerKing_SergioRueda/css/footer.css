@@ -1,0 +1,116 @@
+@font-face {
+    font-family: flame regular;
+    src: url(./../assets/fonts/FlameRegular.otf);
+}
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --hibiscus-700: #df2b28;
+    --hibiscus-800: #f5d939;
+    --hibiscus-900: #502314;
+    --hibiscus-950: #F5EBDC;
+    
+}
+.bk-footer {
+    max-width: 100%;
+}
+
+.bk-footer__top__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    font-family: flame regular;
+    font-size: 2rem;
+    background-color: var(--hibiscus-900); 
+
+}
+.bk-footer__nav {
+    display: flex;
+    align-content: end;
+    padding: 40px 0px 40px 0px;
+}
+
+.bk-footer__box {
+    width: 100%;
+    font-family: flame regular;
+    display: flex;
+    align-items:center;
+    list-style-type: none;
+
+}
+
+.bk-footer__link {
+    border-right: 3px solid rgb(243, 242, 242);
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0px 5px;
+    margin: 0px 5px;
+    color: var(--hibiscus-950);
+    list-style-type: none;
+
+}
+
+.bk-footer__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bk-footer__title {
+    display: flex;
+    height: 120px;
+    justify-content: center;
+}
+.bk-footer__title__h2{
+    padding-top: 40px;
+    color: var(--hibiscus-900);
+    font-family: flame regular;
+    font-size: 1.5rem;
+}
+.bk-footer__bottom_container {
+    display: flex;
+    justify-content: space-between; 
+    height: 120px;
+    background-color: var(--hibiscus-900); 
+}
+.bk-footer__bottom__pedidos{
+    font-family: flame regular;
+    font-size: 1.1rem;
+    color: var(--hibiscus-950);
+    margin-right: 60px;
+    padding-left: 20px;
+
+}
+.bk-footer__bottom__copyr{
+    font-family: flame regular;
+    font-size: 1.1rem;
+    padding-top: 40px;
+    color: var(--hibiscus-950);
+
+}
+.bk-footer__net{
+    display: flex;
+    padding: 30px 0px 50px 0px;
+}
+.bk-footer__nets{
+    width: 60px;
+    color: var(--hibiscus-950);
+    list-style-type: none;
+}
+.bk-footer__nets:hover{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.fa-brands{
+    color: var(--hibiscus-950);
+    padding: 0;
+    margin: 0;
+    width: 40px;
+    height: 30px;
+    background-color: var(--hibiscus-900); 
+}
+.fa-brands:hover{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
